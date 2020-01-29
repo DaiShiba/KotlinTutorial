@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        text_version.text = BuildConfig.APPLICATION_ID
+        text_version.text = "国の名前：" + getString(R.string.local)
     }
 }

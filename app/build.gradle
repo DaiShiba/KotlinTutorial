@@ -31,6 +31,21 @@ android {
             applicationIdSuffix ".debugStaging"
         }
     }
+
+    flavorDimensions "version"
+    productFlavors {
+        japan {
+            dimension "version"
+            applicationIdSuffix ".DEMO"
+            versionNameSuffix "-demo"
+            
+        }
+        Mre {
+            dimension "version"
+            applicationIdSuffix ".Mare"
+            versionNameSuffix "-mare"
+        }
+    }
 }
 
 dependencies {
